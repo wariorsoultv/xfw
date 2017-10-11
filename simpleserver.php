@@ -32,7 +32,7 @@ if($message){
 			$jsonData = formatText($sender,$message_to_reply);
         }
 	
-	$url = "https://graph.facebook.com/v2.6/me/messages?access_token=".$access_token;
+	$url = "https://graph.facebook.com/v2.6/me/messages?access_token=EAAM6SypAsyYBABnNN9yVcQw2BIZCFbOxPz7GGSUMNLYDfbFjZAVU6tz9gkf6vZA3umaVy9x40s4HWajmBXT4uTM1KGMT6nTfB3JzbDYNcOZCa1kaagRh9jhMhyWkXwh7qjBMlQGseoRRxgZCXwQpNwdpq9XZB01uKbrbi9zFElwAZDZD";
 	
 	
 	$ch = curl_init($url);
